@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "format",
+  "version": "${version}",
+  "name": "Format",
+  "description": "A mod that helps you create areas to datapacks",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/format/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.lukasabbe.format.Format"
+    ]
+  },
+  "mixins": [
+    "format.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
