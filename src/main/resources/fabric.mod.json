@@ -3,9 +3,11 @@
   "id": "format",
   "version": "${version}",
   "name": "Format",
-  "description": "A mod that helps you create areas to datapacks",
-  "authors": [],
-  "contact": {},
+  "description": "A mod that helps you create NBT or JSON areas",
+  "authors": ["Lukasabbe"],
+  "contact": {
+    "sources": "https://github.com/lukasabbe/Format2.0"
+  },
   "license": "MIT",
   "icon": "assets/format/icon.png",
   "environment": "*",
