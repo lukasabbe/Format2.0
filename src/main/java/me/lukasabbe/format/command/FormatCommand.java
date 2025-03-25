@@ -39,7 +39,7 @@ public class FormatCommand {
         }
 
         final String generatedString = FormatCalc.getStringValue(new BoxValue(fPos.getX(), fPos.getY(), fPos.getZ(), sPos.getX(), sPos.getY(), sPos.getZ()),type);
-        final ClickEvent clickEvent = new ClickEvent(ClickEvent.Action.COPY_TO_CLIPBOARD, generatedString);
+        final ClickEvent clickEvent = new ClickEvent.CopyToClipboard(generatedString);
         Text t = Text.literal(generatedString).setStyle(Style.EMPTY.withClickEvent(clickEvent));
         commandContext.getSource().getPlayer().sendMessage(t);
         return 1;
